@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<form action="#" class="form">
+
+    <label class="form__label">
+        <span class="text">Your name*</span>
+        <input type="text" class="form__input" id="name" name="name" placeholder="Name" autocomplete="off">
+        <span class="error error-name">Remove spaces!</span>
+    </label>
+
+    <label class="form__label">
+        <span class="text">Your email*</span>
+        <input type="text" class="form__input" id="email" name="email" placeholder="examle@gmail.com" autocomplete="off">
+        <span class="error error-email">Input valid email!</span>
+    </label>
+
+    <label class="form__label">
+        <span class="text">Password*</span>
+        <input type="password" class="form__input" id="pass" name="pass" placeholder="Password" autocomplete="off">
+        <span class="error error-pass">Input valid password! 5 capital letters minimum, any number of lowercase and numbers</span>
+    </label>
+
+</form>
+
+<script src="script.js"></script>
+</body>
+</html>
